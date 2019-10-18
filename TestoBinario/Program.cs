@@ -6,13 +6,11 @@ namespace TestoBinario
     {
         static void Main(string[] args)
         {
-          string s;
-          Console.WriteLine(" Inserisci parola: ");
-          s = Console.ReadLine();
-          foreach (char c in s)
-           {
-              Console.WriteLine((int)c);
-           }
+            Console.WriteLine("inserisci numero decimale");
+            int value = int.Parse(Console.ReadLine());
+            string binary = Convert.ToString(value, 2);
+            Console.WriteLine("il numero binario è");
+            Console.WriteLine($"{binary}");
             Console.ReadLine();
         }
     }
