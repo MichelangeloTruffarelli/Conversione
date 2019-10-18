@@ -11,6 +11,7 @@ namespace TestoBinario
             string binary = Convert.ToString(value, 2);
             Console.WriteLine("il numero binario è");
             Console.WriteLine($"{binary}");
+            Console.WriteLine("furbo");
             Console.ReadLine();
         }
     }
